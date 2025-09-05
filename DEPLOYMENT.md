@@ -11,7 +11,7 @@ This guide explains how to deploy the GTS Shad/Cn Kit to various hosting platfor
 3. **Set Source to "GitHub Actions"**
 4. **Push to main branch** - deployment happens automatically via GitHub Actions
 
-The app will be available at: `https://yourusername.github.io/gts-shadcn-kit/`
+The app will be available at: `https://faheemalvii.github.io/GTS-UI-Kit/`
 
 ### Manual Deployment
 
@@ -58,7 +58,7 @@ The `out` directory contains all the static files needed:
 For production builds, the following environment variables are used:
 
 - `NODE_ENV=production` - Enables production optimizations
-- `NEXT_PUBLIC_BASE_PATH` - Set to `/gts-shadcn-kit` for GitHub Pages
+- `NEXT_PUBLIC_BASE_PATH` - Set to `/GTS-UI-Kit` for GitHub Pages
 
 ### Build Process
 

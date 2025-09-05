@@ -99,7 +99,7 @@ The GTS Shad/Cn Kit follows modern design principles:
 
 ### Live Demo
 
-🌐 **View the live demo**: [https://geektechsol.github.io/gts-shadcn-kit/](https://geektechsol.github.io/gts-shadcn-kit/)
+🌐 **View the live demo**: [https://faheemalvii.github.io/GTS-UI-Kit/](https://faheemalvii.github.io/GTS-UI-Kit/)
 
 The application is automatically deployed to GitHub Pages on every push to the main branch.
 
@@ -191,7 +191,7 @@ This project is configured for automatic deployment to GitHub Pages:
 3. **Set source to GitHub Actions** in Pages settings
 4. **Push to main branch** - deployment happens automatically
 
-The app will be available at: `https://yourusername.github.io/gts-shadcn-kit/`
+The app will be available at: `https://faheemalvii.github.io/GTS-UI-Kit/`
 
 ### Manual Deployment
 
