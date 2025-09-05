@@ -97,6 +97,12 @@ The GTS Shad/Cn Kit follows modern design principles:
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
+### Live Demo
+
+🌐 **View the live demo**: [https://geektechsol.github.io/gts-shadcn-kit/](https://geektechsol.github.io/gts-shadcn-kit/)
+
+The application is automatically deployed to GitHub Pages on every push to the main branch.
+
 ## 📱 Pages Included
 
 ### Authentication
@@ -173,6 +179,36 @@ Each component includes:
 - **Usage Examples**: Real-world implementation examples
 - **Variants**: All available component variants
 - **Accessibility**: ARIA attributes and keyboard navigation
+
+## 🚀 Deployment
+
+### GitHub Pages (Automatic)
+
+This project is configured for automatic deployment to GitHub Pages:
+
+1. **Fork the repository** to your GitHub account
+2. **Enable GitHub Pages** in your repository settings
+3. **Set source to GitHub Actions** in Pages settings
+4. **Push to main branch** - deployment happens automatically
+
+The app will be available at: `https://yourusername.github.io/gts-shadcn-kit/`
+
+### Manual Deployment
+
+```bash
+# Build for production
+pnpm run export
+
+# The static files will be in the 'out' directory
+# Upload the contents to your hosting provider
+```
+
+### Other Platforms
+
+- **Vercel**: Connect your GitHub repo for automatic deployments
+- **Netlify**: Drag and drop the `out` folder or connect your repo
+- **AWS S3**: Upload the `out` folder contents to an S3 bucket
+- **Any static hosting**: The `out` folder contains all static files
 
 ## 🍴 Fork & Use
 
